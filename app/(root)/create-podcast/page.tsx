@@ -80,7 +80,7 @@ const CreatePodcast = () => {
               name="podcastTitle"
               render={({ field }) => (
                 <FormItem className="flex flex-col gap-2.5">
-                  <FormLabel className="text-16 font-bold text-white-1">Username</FormLabel>
+                  <FormLabel className="text-16 font-bold text-white-1"></FormLabel>
                   <FormControl>
                     <Input className="input-class focus-visible:ring-orange-1" placeholder="Sujal Pro Podcast" {...field} />
                   </FormControl>
@@ -122,7 +122,7 @@ const CreatePodcast = () => {
                 <FormItem className="flex flex-col gap-2.5">
                   <FormLabel className="text-16 font-bold text-white-1">Description</FormLabel>
                   <FormControl>
-                    <Textarea className="input-class focus-visible:ring-orange-1" placeholder="Write a short podcast description" {...field} />
+                    <Textarea className="input-class focus:ring-orange-1" placeholder="Write a short podcast description" {...field} />
                   </FormControl>
                   <FormMessage className="text-white-1" />
                 </FormItem>
